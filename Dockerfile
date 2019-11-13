@@ -6,3 +6,4 @@ ENV HOME=/data
 WORKDIR /data
 
 RUN wget -nv -O /data/upload/include/i18n/ru.phar https://s3.amazonaws.com/downloads.osticket.com/lang/ru.phar
+CMD ["/data/bin/start.sh"]
